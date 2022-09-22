@@ -85,7 +85,6 @@ jobs:
     steps:
        - name: Checkout
          uses: actions/checkout@main
-
        - name: Set Git Configs & Secrets
          run: |
            git config --global user.email ${{ secrets.GIT_EMAIL }}
